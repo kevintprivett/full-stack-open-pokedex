@@ -1,7 +1,4 @@
-dist/
 node_modules/
-.env
-.secret
 
 # Playwright
 /test-results/
