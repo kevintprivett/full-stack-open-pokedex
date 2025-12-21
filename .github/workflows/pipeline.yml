@@ -1,7 +1,7 @@
 name: Deployment pipeline
 
 env:
-  SKIP: ${{ contains(toJson(github.event.commits[0].message), '#SKIP') }}
+  SKIP: ${{ contains(toJson(github.event.*.message), '#skip') }}
 
 on:
   push:
