@@ -12,7 +12,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('1') // update string to show a new version
+  res.send('2') // update string to show a new version
 })
 
 app.get('/health', (req, res) => {
